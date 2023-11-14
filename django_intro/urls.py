@@ -23,4 +23,9 @@ urlpatterns = [
     path('index/', views.index),
     path('hello/', views.hello),
     path('cube/<int:num>/', views.cube),
+
+    # path('dinner/', views.dinner),
+    # path('rotto/', views.rotto),
+    # path('greeting/<name>/', views.greeting),
+    # path('posts/', views.posts),
 ]
