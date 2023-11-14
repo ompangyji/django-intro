@@ -12,3 +12,10 @@ def hello(request):
     }
 
     return render(request, 'hello.html', result)
+
+def cube(request, num):
+    result = {
+        'num': num,
+        'cube': int(num)**3, 
+    }
+    return render(request, 'cube.html', result)
